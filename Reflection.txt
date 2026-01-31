@@ -1,0 +1,3 @@
+Which data type decision was most important in your app and why?
+
+The most important data type decision made in this app was using the decimal for the constant TaxRate. The reason why it is the most important decision is because using a double would have caused rounding errors, and an int is a whole number. For something like a tax rate, decimals give the most accuracy. When displaying prices and calculating tax, inaccuracies are unacceptable. Having the constant as a decimal for currency ensures the most accuracy and consistency. Decimals are the preferred option for currency. Doubles are better for scientific calculations, and ints are better when a whole number is involved.
